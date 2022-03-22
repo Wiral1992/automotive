@@ -1,0 +1,116 @@
+@media screen and (max-width:920px) {
+    #about .about-block h1 {
+        font-size: 70px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .flex-header {
+        display: block;
+    }
+    .flex-header .logo {
+        text-align: center;
+    }
+    .flex-header .map ul {
+        display: flex;
+        justify-content: center;
+    }
+    #about .about-block {
+        width: 100%;
+        padding: 0;
+    }
+    #about .about-block h1 {
+        text-align: center;
+    }
+    #about .about-block p {
+        text-align: justify;
+    }
+    #services h2 {
+        text-align: center;
+    }
+    #services .flex-row .flex-coloumn {
+        flex: 0 0 35%;
+    }
+    #story .flex-row {
+        flex-direction: column;
+    }
+    #story .flex-row .flex-coloumn:first-child {
+        margin-bottom: 20px;
+    }
+    #story .flex-row .flex-coloumn p {
+        text-align: center;
+    }
+    #story .flex-row .flex-coloumn a {
+        margin: 0 auto;
+    }
+    #price .flex-row .flex-coloumn {
+        padding: 0 22px;
+        flex: 0 0 40%;
+        margin-bottom: 22px;
+    }
+    #price .flex-row .flex-coloumn .flex-item {
+        padding-bottom: 22px;
+        border-radius: 5px;
+        position: relative;
+    }
+    #gallery .flex-row .flex-coloumn {
+        flex: 0 0 100%;
+    }
+    #gallery .flex-row .flex-coloumn .flex-item .comment {
+        flex-direction: column;
+    }
+    #gallery .flex-row .flex-coloumn .flex-item .comment .comment-text {
+        border-radius: 5px;
+        padding: 19px 5px 19px;
+        order: 2;
+    }
+    #gallery .flex-row .flex-coloumn .flex-item .gallery-row .gallery-coloumn {
+        flex: 0 0 50%;
+        text-align: center;
+    }
+    footer .flex-row {
+        flex-direction: column;
+        padding: 33px 0 53px 0;
+    }
+    footer .column-2 {
+        order: 2;
+        text-align: center;
+    }
+    footer .column-1 {
+        order: 1;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .flex-header {
+        display: block;
+    }
+    .flex-header .logo {
+        text-align: center;
+    }
+    .flex-header .map {
+        float: right;
+    }
+    .flex-header .map ul {
+        display: none;
+    }
+    #about .about-block h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    #price .flex-row .flex-coloumn {
+        padding: 0;
+        flex: 0 0 80%;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    #services .flex-row {
+        justify-content: center;
+    }
+    #services .flex-row .flex-coloumn {
+        flex: 0 0 51%;
+    }
+}

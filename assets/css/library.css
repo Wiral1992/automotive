@@ -1,0 +1,70 @@
+html {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'PT Serif', serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+header {
+    position: relative;
+}
+
+main {
+    position: relative;
+}
+
+footer {
+    position: relative;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    position: relative;
+    overflow: hidden;
+    max-width: 1011px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.fleft {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
